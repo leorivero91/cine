@@ -1,5 +1,5 @@
 let dimArreglo: number = Number(
-  prompt("Ingrese el numero de butacas a consultar")
+  prompt("Ingrese el numero de butacas a consultar");
 );
 let butacasCine: boolean[] = new Array(dimArreglo);
 
@@ -21,5 +21,6 @@ function ocupacionButacas(butacas: boolean[]) {
   console.log(`El numero de butacas ocupadas es ${butacasOcupadas}`);
   console.log(`El numero de butacas deocupadas es ${butacasDesocupadas}`);
 }
-console.log(`La cantidad de butacas del cine son ${butacasCine}`);
+console.log(`La cantidad de butacas del cine son ${butacasCine}`);// aca deberias mostrar dimArreglo
 ocupacionButacas(butacasCine);
+//la solucion esta bien
